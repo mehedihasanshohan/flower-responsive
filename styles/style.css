@@ -8,6 +8,7 @@ body{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 .header{
   display: flex;
@@ -41,4 +42,36 @@ a{
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 24px;
+}
+
+/* banner */
+.banner{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  align-items: center;
+}
+.banner-content{
+  flex: 1;
+}
+.banner-title{
+  font-size: 65px;
+  font-weight: 700;
+  font-family: 'Noto Serif', serif;
+  color: rgb(0, 0, 0);
+}
+.banner-title-span{
+  color: rgb(233, 90, 8);
+}
+.banner-desc{
+  font-size: 24px;
+  font: 400;
+  color: rgb(0, 0, 0, 0.5);
+  margin-top: 16px;
+}
+.banner-img{
+  flex: 1;
+  width: 100%;
+  height: auto;
 }
