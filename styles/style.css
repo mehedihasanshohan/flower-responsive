@@ -138,3 +138,43 @@ a{
   border: none;
   width: 100%;
 }
+
+
+/* badge */
+.badge{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-top: 120px;
+}
+.badge-content-title{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Noto Serif', serif;
+  color: rgb(0, 0, 0);
+}
+.badge-content-lists li{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: poppins, sans-serif;
+  color: rgb(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.badge-img{
+  position: relative;
+}
+.top-img{
+  width: 284px;
+  height: 284px;
+  position: absolute;
+  top: -120px;
+  right: -100px;
+}
+/* .bg-img{
+  background: linear-gradient(rgba(103, 171, 234, 0.24)
+rgba(233, 90, 8, 0.6));
+} */
