@@ -191,7 +191,7 @@ a:hover{
 /* subscribe section */
 .subscribe{
   height: 533px;
-  background-image: url('/assets/news-letter-bg.png');
+  background-image: url('../assets/news-letter-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -411,13 +411,6 @@ a:hover{
 
 
 
-/* .responsive {
-  width: 768px;
-  height: 200px;
-  background-color: red;
-  border: 2px green solid;
-} */
-
 
 /* responsive for mobile */
 /* Responsive Styles */
@@ -605,21 +598,6 @@ a:hover{
 
 
 }
-/* Responsive Styles for Smaller Screens */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
