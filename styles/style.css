@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -179,7 +180,11 @@ a:hover{
   position: absolute;
   top: -120px;
   right: -100px;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.5));
 }
+
+
+
 
 
 
@@ -275,6 +280,7 @@ a:hover{
   color: white;
   border: none;
   background: none;
+  border-bottom: 3px solid white;
 }
 
 .zabo-btn{
@@ -283,6 +289,7 @@ a:hover{
   color: white;
   border: none;
   background: none;
+  border-bottom: 3px solid white;
 
 }
 .bloom-img{
@@ -396,3 +403,295 @@ a:hover{
   gap: 20px;
 }
 
+
+
+
+
+
+
+
+
+/* .responsive {
+  width: 768px;
+  height: 200px;
+  background-color: red;
+  border: 2px green solid;
+} */
+
+
+/* responsive for mobile */
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  html, body {
+  overflow-x: hidden;
+ }
+
+  .hide{
+    display: none !important;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  .banner-desc {
+    font-size: 18px;
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  .plants-title {
+    font-size: 28px;
+  }
+
+  .plants-desc {
+    font-size: 18px;
+  }
+
+  .plants-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    text-align: center;
+  }
+
+  .plant-card-btn{
+    width: 271px;
+  }
+
+  .plant-card-title,
+  .plant-card-desc {
+    font-size: 18px;
+  }
+
+  .badge {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .badge-img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .badge-content-title {
+    font-size: 28px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding-left: 36px;
+  }
+  .badge-content-lists{
+    padding-left: 30px;
+
+  }
+  .badge-content-lists li {
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-right: 90px;
+
+  }
+
+  .bg-img{
+    width: 100%;
+    height: auto;
+  }
+  .top-img {
+    display: none;
+  }
+
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 60px;
+  }
+
+
+  .subscribe-title {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+
+  .subscribe-form {
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+
+
+
+  .offer-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .offer-desc {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+    padding: 20px;
+  }
+
+  .offer-imgs {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bloom-ana-imgs,
+  .zabo-img{
+    width: 96%;
+    margin: auto;
+  }
+
+  .bloom-img,
+  .ana-img{
+    width: 100%;
+    border-radius: 20px;
+    height: 206px;
+  }
+  .zabo-img {
+    width: 96%;
+    height: 206px;
+    border-radius: 20px;
+  }
+
+  .zabo-title, .bloom-title, .ana-title {
+    font-size: 1.4rem;
+  }
+
+  .zabo-btn {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .footer-desc {
+    font-size: 18px;
+    text-align: center;
+    text-align: left;
+  }
+
+
+}
+/* Responsive Styles for Smaller Screens */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .banner-desc {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .plant-card-btn {
+    width: 80%;
+    margin: auto;
+  }
+
+  .plants-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .badge-content-title {
+    font-size: 32px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .badge-content-lists {
+    padding-left: 0;
+  }
+
+  .badge-content-lists li {
+    font-size: 18px;
+    text-align: center;
+    margin: 8px auto;
+    margin-right: 0;
+  }
+
+  .subscribe-form {
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .offer-title {
+    font-size: 28px;
+  }
+
+  .offer-desc {
+    font-size: 18px;
+    padding: 0 24px;
+  }
+
+  .zabo-img,
+  .bloom-img,
+  .ana-img {
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .zabo-title, .bloom-title, .ana-title {
+    font-size: 20px;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer-desc {
+    font-size: 18px;
+    text-align: center;
+  }
+}
